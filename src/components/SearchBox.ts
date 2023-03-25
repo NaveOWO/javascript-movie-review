@@ -13,7 +13,7 @@ export default class SearchBox {
   create() {
     return `
     <input type="text" placeholder="검색" class="search-input"/>
-    <img class="search-button" src="/search_button.png"/>
+    <img class="search-button" src="./search_button.png"/>
     `;
   }
 
