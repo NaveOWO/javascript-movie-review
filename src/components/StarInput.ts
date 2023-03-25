@@ -28,8 +28,8 @@ export class StarInput {
       Array.from({ length: 5 })
         .map((_, idx) => {
           return idx <= this._score
-            ? `<img src="/star_filled.png" class="star-img" id=${idx} />`
-            : `<img src="/star_empty.png" class="star-img" id=${idx} />`;
+            ? `<img src="./star_filled.png" class="star-img" id=${idx} />`
+            : `<img src="./star_empty.png" class="star-img" id=${idx} />`;
         })
         .join("") +
       `</div><strong class="score__count">${(this._score + 1) * 2}</strong>
